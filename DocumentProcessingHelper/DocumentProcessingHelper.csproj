@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard1.6</TargetFramework>
+		<RootNamespace>Accusoft.PrizmDoc</RootNamespace>
+		<Authors>Accusoft</Authors>
+		<Company>Accusoft</Company>
+		<Product />
+		<Version>1.0.0-beta.1</Version>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Copyright>Copyright © 2019 Accusoft Corporation</Copyright>
+		<Description>
+			PrizmDoc Server SDK for .NET
+		</Description>
+		<PackageProjectUrl>https://github.com/Accusoft/DocumentProcessingHelperDotNet</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Accusoft/DocumentProcessingHelperDotNet</RepositoryUrl>
+		<PackageId>DocumentProcessingHelper</PackageId>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+	  <PackageReference Include="PrizmDocRestClient" Version="1.0.0-beta.3" />
+	</ItemGroup>
+
+</Project>
