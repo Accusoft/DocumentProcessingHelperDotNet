@@ -1,4 +1,4 @@
-# PrizmDoc Server SDK for .NET
+# DocumentProcessingHelper for .NET (BETA)
 
 **(BETA)** Simple .NET helper for document processing, powered by PrizmDoc Server. You can use this helper with either [PrizmDoc Cloud](https://cloud.accusoft.com) or your own self-hosted PrizmDoc Server.
 
@@ -14,7 +14,7 @@ This will add a new `Accusoft.PrizmDoc` namespace containing the `DocumentProces
 
 ## Example Usage
 
-### Covnerting a JPEG to PDF
+### Converting a JPEG to PDF
 
 ```csharp
 using Accusoft.PrizmDoc;
@@ -42,7 +42,7 @@ namespace MyApplication
 }
 ```
 
-### Covnerting a PDF to PNG
+### Converting a PDF to PNG
 
 ```csharp
 using Accusoft.PrizmDoc;
