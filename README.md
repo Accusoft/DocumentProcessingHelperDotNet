@@ -8,7 +8,7 @@ If you don't have your own PrizmDoc Server instance, the easiest way to get star
 
 ## Installation
 
-Add the [DocumentProcessingHelper NuGet package](https://www.nuget.org/packages/PrizmDocRestClient/) to your project.
+Add the [DocumentProcessingHelper NuGet package](https://www.nuget.org/packages/DocumentProcessingHelper/) to your project.
 
 This will add a new `Accusoft.PrizmDoc` namespace containing the `DocumentProcessingHelper` class.
 
